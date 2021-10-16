@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C694581D271AFEF8008466A3 /* Codes_Ciphers_and_Secret_WritingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694581C271AFEF8008466A3 /* Codes_Ciphers_and_Secret_WritingApp.swift */; };
+		C694581F271AFEF8008466A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694581E271AFEF8008466A3 /* ContentView.swift */; };
+		C6945821271AFEFB008466A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6945820271AFEFB008466A3 /* Assets.xcassets */; };
+		C6945824271AFEFB008466A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6945823271AFEFB008466A3 /* Preview Assets.xcassets */; };
+		C694582F271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694582E271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingTests.swift */; };
+		C694583A271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6945839271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C694582B271AFEFC008466A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6945811271AFEF8008466A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6945818271AFEF8008466A3;
+			remoteInfo = "Codes Ciphers and Secret Writing";
+		};
+		C6945836271AFEFC008466A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6945811271AFEF8008466A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6945818271AFEF8008466A3;
+			remoteInfo = "Codes Ciphers and Secret Writing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6945819271AFEF8008466A3 /* Codes Ciphers and Secret Writing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codes Ciphers and Secret Writing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C694581C271AFEF8008466A3 /* Codes_Ciphers_and_Secret_WritingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codes_Ciphers_and_Secret_WritingApp.swift; sourceTree = "<group>"; };
+		C694581E271AFEF8008466A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C6945820271AFEFB008466A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6945823271AFEFB008466A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C6945825271AFEFB008466A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C694582A271AFEFC008466A3 /* Codes Ciphers and Secret WritingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codes Ciphers and Secret WritingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C694582E271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codes_Ciphers_and_Secret_WritingTests.swift; sourceTree = "<group>"; };
+		C6945830271AFEFC008466A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6945835271AFEFC008466A3 /* Codes Ciphers and Secret WritingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codes Ciphers and Secret WritingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6945839271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codes_Ciphers_and_Secret_WritingUITests.swift; sourceTree = "<group>"; };
+		C694583B271AFEFC008466A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6945816271AFEF8008466A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6945827271AFEFC008466A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6945832271AFEFC008466A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6945810271AFEF8008466A3 = {
+			isa = PBXGroup;
+			children = (
+				C694581B271AFEF8008466A3 /* Codes Ciphers and Secret Writing */,
+				C694582D271AFEFC008466A3 /* Codes Ciphers and Secret WritingTests */,
+				C6945838271AFEFC008466A3 /* Codes Ciphers and Secret WritingUITests */,
+				C694581A271AFEF8008466A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C694581A271AFEF8008466A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6945819271AFEF8008466A3 /* Codes Ciphers and Secret Writing.app */,
+				C694582A271AFEFC008466A3 /* Codes Ciphers and Secret WritingTests.xctest */,
+				C6945835271AFEFC008466A3 /* Codes Ciphers and Secret WritingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C694581B271AFEF8008466A3 /* Codes Ciphers and Secret Writing */ = {
+			isa = PBXGroup;
+			children = (
+				C694581C271AFEF8008466A3 /* Codes_Ciphers_and_Secret_WritingApp.swift */,
+				C694581E271AFEF8008466A3 /* ContentView.swift */,
+				C6945820271AFEFB008466A3 /* Assets.xcassets */,
+				C6945825271AFEFB008466A3 /* Info.plist */,
+				C6945822271AFEFB008466A3 /* Preview Content */,
+			);
+			path = "Codes Ciphers and Secret Writing";
+			sourceTree = "<group>";
+		};
+		C6945822271AFEFB008466A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C6945823271AFEFB008466A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C694582D271AFEFC008466A3 /* Codes Ciphers and Secret WritingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C694582E271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingTests.swift */,
+				C6945830271AFEFC008466A3 /* Info.plist */,
+			);
+			path = "Codes Ciphers and Secret WritingTests";
+			sourceTree = "<group>";
+		};
+		C6945838271AFEFC008466A3 /* Codes Ciphers and Secret WritingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6945839271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingUITests.swift */,
+				C694583B271AFEFC008466A3 /* Info.plist */,
+			);
+			path = "Codes Ciphers and Secret WritingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6945818271AFEF8008466A3 /* Codes Ciphers and Secret Writing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C694583E271AFEFC008466A3 /* Build configuration list for PBXNativeTarget "Codes Ciphers and Secret Writing" */;
+			buildPhases = (
+				C6945815271AFEF8008466A3 /* Sources */,
+				C6945816271AFEF8008466A3 /* Frameworks */,
+				C6945817271AFEF8008466A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Codes Ciphers and Secret Writing";
+			productName = "Codes Ciphers and Secret Writing";
+			productReference = C6945819271AFEF8008466A3 /* Codes Ciphers and Secret Writing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6945829271AFEFC008466A3 /* Codes Ciphers and Secret WritingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6945841271AFEFC008466A3 /* Build configuration list for PBXNativeTarget "Codes Ciphers and Secret WritingTests" */;
+			buildPhases = (
+				C6945826271AFEFC008466A3 /* Sources */,
+				C6945827271AFEFC008466A3 /* Frameworks */,
+				C6945828271AFEFC008466A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C694582C271AFEFC008466A3 /* PBXTargetDependency */,
+			);
+			name = "Codes Ciphers and Secret WritingTests";
+			productName = "Codes Ciphers and Secret WritingTests";
+			productReference = C694582A271AFEFC008466A3 /* Codes Ciphers and Secret WritingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6945834271AFEFC008466A3 /* Codes Ciphers and Secret WritingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6945844271AFEFC008466A3 /* Build configuration list for PBXNativeTarget "Codes Ciphers and Secret WritingUITests" */;
+			buildPhases = (
+				C6945831271AFEFC008466A3 /* Sources */,
+				C6945832271AFEFC008466A3 /* Frameworks */,
+				C6945833271AFEFC008466A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6945837271AFEFC008466A3 /* PBXTargetDependency */,
+			);
+			name = "Codes Ciphers and Secret WritingUITests";
+			productName = "Codes Ciphers and Secret WritingUITests";
+			productReference = C6945835271AFEFC008466A3 /* Codes Ciphers and Secret WritingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6945811271AFEF8008466A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C6945818271AFEF8008466A3 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					C6945829271AFEFC008466A3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C6945818271AFEF8008466A3;
+					};
+					C6945834271AFEFC008466A3 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = C6945818271AFEF8008466A3;
+					};
+				};
+			};
+			buildConfigurationList = C6945814271AFEF8008466A3 /* Build configuration list for PBXProject "Codes Ciphers and Secret Writing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6945810271AFEF8008466A3;
+			productRefGroup = C694581A271AFEF8008466A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6945818271AFEF8008466A3 /* Codes Ciphers and Secret Writing */,
+				C6945829271AFEFC008466A3 /* Codes Ciphers and Secret WritingTests */,
+				C6945834271AFEFC008466A3 /* Codes Ciphers and Secret WritingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6945817271AFEF8008466A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6945824271AFEFB008466A3 /* Preview Assets.xcassets in Resources */,
+				C6945821271AFEFB008466A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6945828271AFEFC008466A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6945833271AFEFC008466A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6945815271AFEF8008466A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C694581F271AFEF8008466A3 /* ContentView.swift in Sources */,
+				C694581D271AFEF8008466A3 /* Codes_Ciphers_and_Secret_WritingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6945826271AFEFC008466A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C694582F271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6945831271AFEFC008466A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C694583A271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C694582C271AFEFC008466A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6945818271AFEF8008466A3 /* Codes Ciphers and Secret Writing */;
+			targetProxy = C694582B271AFEFC008466A3 /* PBXContainerItemProxy */;
+		};
+		C6945837271AFEFC008466A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6945818271AFEF8008466A3 /* Codes Ciphers and Secret Writing */;
+			targetProxy = C6945836271AFEFC008466A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C694583C271AFEFC008466A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C694583D271AFEFC008466A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C694583F271AFEFC008466A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Codes Ciphers and Secret Writing/Preview Content\"";
+				DEVELOPMENT_TEAM = T3V57DT83Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Codes Ciphers and Secret Writing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.everythingsrelative.Codes-Ciphers-and-Secret-Writing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6945840271AFEFC008466A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Codes Ciphers and Secret Writing/Preview Content\"";
+				DEVELOPMENT_TEAM = T3V57DT83Y;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Codes Ciphers and Secret Writing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.everythingsrelative.Codes-Ciphers-and-Secret-Writing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C6945842271AFEFC008466A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3V57DT83Y;
+				INFOPLIST_FILE = "Codes Ciphers and Secret WritingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.everythingsrelative.Codes-Ciphers-and-Secret-WritingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codes Ciphers and Secret Writing.app/Codes Ciphers and Secret Writing";
+			};
+			name = Debug;
+		};
+		C6945843271AFEFC008466A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3V57DT83Y;
+				INFOPLIST_FILE = "Codes Ciphers and Secret WritingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.everythingsrelative.Codes-Ciphers-and-Secret-WritingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codes Ciphers and Secret Writing.app/Codes Ciphers and Secret Writing";
+			};
+			name = Release;
+		};
+		C6945845271AFEFC008466A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3V57DT83Y;
+				INFOPLIST_FILE = "Codes Ciphers and Secret WritingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.everythingsrelative.Codes-Ciphers-and-Secret-WritingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Codes Ciphers and Secret Writing";
+			};
+			name = Debug;
+		};
+		C6945846271AFEFC008466A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3V57DT83Y;
+				INFOPLIST_FILE = "Codes Ciphers and Secret WritingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.everythingsrelative.Codes-Ciphers-and-Secret-WritingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Codes Ciphers and Secret Writing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6945814271AFEF8008466A3 /* Build configuration list for PBXProject "Codes Ciphers and Secret Writing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C694583C271AFEFC008466A3 /* Debug */,
+				C694583D271AFEFC008466A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C694583E271AFEFC008466A3 /* Build configuration list for PBXNativeTarget "Codes Ciphers and Secret Writing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C694583F271AFEFC008466A3 /* Debug */,
+				C6945840271AFEFC008466A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6945841271AFEFC008466A3 /* Build configuration list for PBXNativeTarget "Codes Ciphers and Secret WritingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6945842271AFEFC008466A3 /* Debug */,
+				C6945843271AFEFC008466A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6945844271AFEFC008466A3 /* Build configuration list for PBXNativeTarget "Codes Ciphers and Secret WritingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6945845271AFEFC008466A3 /* Debug */,
+				C6945846271AFEFC008466A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6945811271AFEF8008466A3 /* Project object */;
+}
