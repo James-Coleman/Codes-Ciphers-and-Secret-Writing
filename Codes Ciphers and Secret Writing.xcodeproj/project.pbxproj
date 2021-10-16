@@ -45,6 +45,7 @@
 		C6945835271AFEFC008466A3 /* Codes Ciphers and Secret WritingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codes Ciphers and Secret WritingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6945839271AFEFC008466A3 /* Codes_Ciphers_and_Secret_WritingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codes_Ciphers_and_Secret_WritingUITests.swift; sourceTree = "<group>"; };
 		C694583B271AFEFC008466A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6945847271AFF51008466A3 /* 1-1 Rail Fence Cipher.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "1-1 Rail Fence Cipher.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 			children = (
 				C694581C271AFEF8008466A3 /* Codes_Ciphers_and_Secret_WritingApp.swift */,
 				C694581E271AFEF8008466A3 /* ContentView.swift */,
+				C6945847271AFF51008466A3 /* 1-1 Rail Fence Cipher.playground */,
 				C6945820271AFEFB008466A3 /* Assets.xcassets */,
 				C6945825271AFEFB008466A3 /* Info.plist */,
 				C6945822271AFEFB008466A3 /* Preview Content */,
