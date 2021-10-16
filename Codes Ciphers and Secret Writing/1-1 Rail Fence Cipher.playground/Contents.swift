@@ -26,14 +26,14 @@ func railFenceCipher(plainText: String) -> String {
         }
     }
     
-    topHalf + bottomHalf
+    let completeText = topHalf + bottomHalf
     
     var withSpaces = ""
     
-    for (index, character) in (topHalf + bottomHalf).enumerated() { 
+    for (index, character) in completeText.enumerated() {
         withSpaces += String(character)
         
-        if (index + 1) % 4 == 0 {
+        if (index + 1) % 4 == 0 && index != (completeText.count - 1) {
             withSpaces += " "
         }
     }
