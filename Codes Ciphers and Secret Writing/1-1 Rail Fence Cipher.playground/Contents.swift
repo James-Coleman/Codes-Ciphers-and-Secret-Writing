@@ -42,3 +42,23 @@ func railFenceCipher(plainText: String) -> String {
 }
 
 railFenceCipher(plainText: "MEET ME TONIGHT")
+
+func railFenceDecipher(cipherText: String) -> String {
+    let cleanText = cipherText.filter { $0.isWhitespace == false }
+    
+    let halfway = cleanText.count / 2
+    
+    var firstHalf = cleanText.prefix(halfway)
+    var secondHalf = cleanText.suffix(halfway)
+    
+    var plainText = ""
+    
+    while firstHalf.isEmpty == false {
+        plainText += String(firstHalf.popFirst()!)
+        plainText += String(secondHalf.popFirst()!)
+    }
+    
+    return plainText
+}
+
+railFenceDecipher(cipherText: "MEMT NGTQ ETEO IHJZ")
