@@ -62,3 +62,5 @@ func railFenceDecipher(cipherText: String) -> String {
 }
 
 railFenceDecipher(cipherText: "MEMT NGTQ ETEO IHJZ")
+
+railFenceDecipher(cipherText: "AALU HNHS EDFY  MNAG IGIH AOFZ")
